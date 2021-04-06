@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.box {
+  border: 3px solid black;
+  padding: 10px;
+  position: relative;
+}
+
+h1 {
+  color: blue;
+}
+
+.hai {
+  color: lime;
+}
+
+#bonjour {
+  color: brown;
+}
+
+.container .class-hello {
+  color: black;
+}
+
+.custom-font {
+  font-family: "Train One", cursive;
+}
+
+p.font {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-variant: small-caps;
+  line-height: 2em;
+}
+
+p.text {
+  color: blue;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-indent: 10px;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+
+.box-model {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  background-color: brown;
+  padding: 50px; /* padding atas, padding kanan, padding bawah, padding kiri. Kalau cuma tiga: padding atas, padding kiri kanan, padding bawah */
+  border: 5px solid blue;
+  margin: 10px; /* Sama aja kayak padding */
+}
+
+.button-hover:hover {
+  /* width: 100px;
+  height: 50px; */
+  margin-top: 10px;
+}
+
+.pseudo-element::before {
+  content: "Hi, ";
+}
+
+.pseudo-element::after {
+  content: " World!";
+}
+
+.kotak-satu,
+.kotak-dua,
+.kotak-tiga {
+  width: 100px;
+  height: 100px;
+}
+
+.kotak-satu {
+  background-color: red;
+}
+
+.kotak-dua {
+  background-color: blue;
+  /* position: relative; */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.kotak-tiga {
+  background-color: green;
+}
+
+.kotak-empat,
+.kotak-lima {
+  width: 100%;
+  height: 50px;
+}
+
+.kotak-empat {
+  background-color: coral;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.kotak-lima {
+  background-color: cornflowerblue;
+  position: sticky;
+  top: 50px;
+}
+
+.scrolling {
+  height: 1000px;
+}
+
+.flex-container,
+.flex-container-2 {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex: 5;
+}
+
+.right {
+  flex: 5;
+}

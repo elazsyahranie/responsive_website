@@ -1,0 +1,20 @@
+.flex-container {
+  display: flex;
+}
+
+/* LEFT CONTENT */
+.left {
+  flex: 5;
+}
+
+.left-box {
+  position: relative;
+}
+
+.the-logo {
+  position: absolute;
+}
+
+.right {
+  flex: 5;
+}

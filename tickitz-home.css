@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tickitz-purple-button {
+  width: 120px;
+  background-color: #5f2eea;
+}
+
+.grey-bg {
+  background-color: #f5f6f8;
+}
+
+.btn {
+  color: white;
+}
+
+a,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Welcoming Header */
+.welcoming-header {
+  height: 30rem;
+}
+
+.find-now {
+  font-size: 38px;
+}
+
+#welcoming-header-large {
+  height: 100%;
+}
+
+/* Movie List / Second Container */
+.inline-menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.inline-menu li a:active {
+  text-decoration: underline;
+}
+/* Kalau seandainya konten sudah mulai mengecil
+@media (min-width: 767px) {
+  #welcoming-header-large {
+    height: auto;
+  }
+
+  #nearest {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+} */
+
+.tickitz-purple-button-2 {
+  width: 120px;
+  background-color: #5f2eea;
+  font-weight: 800;
+}
+
+.tickitz-purple-button-2-blank {
+  width: 120px;
+  background-color: transparent;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+}
+
+@media (min-width: 1022px) {
+  .collapse {
+    display: none !important;
+  }
+
+  #left-navbar {
+    display: flex;
+  }
+
+  #left-navbar li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #btn-imitation {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 120px;
+    background-color: #5f2eea;
+  }
+
+  #top-navbar {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  #mobile-border {
+    display: none;
+  }
+
+  .welcoming-header-smaller {
+    display: none;
+  }
+}
+
+@media (max-width: 1022px) {
+  .welcoming-header {
+    display: none;
+  }
+
+  .collapse {
+    display: none !important;
+  }
+
+  #kaca {
+    display: none;
+  }
+
+  #left-navbar li {
+    padding: 8px 10px;
+  }
+
+  #btn-imitation {
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .welcoming-header-smaller {
+    display: show;
+  }
+}
