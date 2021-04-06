@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <link href="tickitz-home.css" rel="stylesheet">
+  <link href="movie-details.css" rel="stylesheet">
+  <style>
+  .view-more h5 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #dedede; 
+   line-height: 0.1em;
+   margin: 5em 0 5em; 
+  } 
+
+  .view-more h5 span { 
+    background:#F5F6F8  ; 
+    padding:0 10px; 
+  }
+
+  footer {
+    padding-top: 0px;
+  }
+
+  .btn-imitation-2 {
+    border-radius: 5px;
+    width: 100px;
+    background-color: #5f2eea;
+  }
+  </style>
+  <title>Tickitz</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid py-2" id="top-navbar">
+      <a class="navbar-brand" href="#"><img src="Tickitz_2.png" class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cinemas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Buy Tickets</a>
+          </li>
+        </ul>
+        <hr id="mobileBorder">
+        <ul class="navbar-nav" id="left-navbar">
+          <li class="nav-item">Location <img src="Forward.png" class="img-fluid"></li>
+          <li class="nav-item" id="kaca"><img src="kaca_pembesar.png" class="img-fluid"></li>
+          <li class="nav-item"><img src="Ellipse_12.png"></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="fw-bold">Movie Selected</div>
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="fw-bold">Spider-Man: Homecoming</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-4 mt-5">
+          <img src="Tickitz_2.png" class="img-fluid">
+          <p class="mt-2" style="line-height: 30px;">Stop waiting in line, buy tickets conveniently,<br>watch movies quietly.</p>
+        </div>
+        <div class="col-lg-3 mt-5">
+          <h5 class="fw-bold">Explore</h5>
+          <ul style="list-style-type: none;display: inline;">
+            <li class="py-1">Cinemas</li>
+            <li class="py-1">Movies</li>
+            <li class="py-1">My Ticket</li>
+            <li class="py-1">Notification</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mt-5">
+          <h5 class="fw-bold">Our Sponsor</h5>
+          <ul style="list-style-type: none;display: inline;">
+            <li class="py-3"><img src="Vector.png"></li>
+            <li class="py-3"><img src="CineOne.png"></li>
+            <li class="py-3"><img src="hiflix.png"></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mt-5">
+          <h5 class="fw-bold">Contact Us</h5>
+          <ul style="list-style-type: none;display: inline;">
+            <li class="py-2"><img src="eva_facebook-outline.png" class="pe-1">Tickitz Cinema</li>
+            <li class="py-2"><img src="bx_bxl-instagram.png" class="pe-1">tickitz.id</li>
+            <li class="py-2"><img src="eva_twitter-outline.png" class="pe-1">tickitz.id</li>
+            <li class="py-2"><img src="feather_youtube.png" class="pe-1">Tickitz Cinema.id</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>

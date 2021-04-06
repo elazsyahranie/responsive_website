@@ -1,0 +1,57 @@
+.welcoming-image {
+  border: 1px solid #8292a6;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.my-box {
+  background-color: white;
+  width: fit-content;
+}
+
+.the-card {
+  width: 260px;
+  background-color: #fff;
+}
+
+@media (min-width: 767px) {
+  #mobile-welcoming-detail {
+    display: none;
+  }
+
+  #smaller-welcoming-detail {
+    display: none;
+  }
+
+  #welcoming-detail {
+    display: show;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  #mobile-welcoming-detail {
+    display: none;
+  }
+
+  #smaller-welcoming-detail {
+    display: show;
+  }
+
+  #welcoming-detail {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #mobile-welcoming-detail {
+    display: show;
+  }
+
+  #smaller-welcoming-detail {
+    display: none;
+  }
+
+  #welcoming-detail {
+    display: none;
+  }
+}
