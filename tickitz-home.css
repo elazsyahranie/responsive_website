@@ -106,6 +106,27 @@ a:active {
   width: 120px;
 }
 
+.tickitz-purple-button-4 {
+  background-color: #5f2eea;
+  height: 40px;
+  width: 190px;
+}
+
+.tickitz-purple-button-4-blank {
+  background-color: transparent;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+  height: 40px;
+  width: 190px;
+}
+
+.tickitz-purple-button-4-blank-block {
+  background-color: transparent;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+  height: 40px;
+}
+
 .vanguard-height {
   height: 53px;
 }
